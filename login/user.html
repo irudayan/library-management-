@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/javascript">
+function validate() {
+var username = document.getElementById("username").value;
+var password = document.getElementById("password").value;
+
+if(username == password) {
+alert("Login success");
+}
+else {
+alert("Login failure");
+}
+}
+
+</script>
+</head>
+
+<body>
+
+Username: <input id="username" type="text" name="username"><br>
+Password: <input id="password" type="password" name="password">
+<button onclick="validate()">Login</button>
+</body>
+</html>
